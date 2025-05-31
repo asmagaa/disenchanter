@@ -19,7 +19,7 @@ public class ModItems {
     public static void registerModItems() {
         Disenchanter.LOGGER.info("Registering Mod Items for" + Disenchanter.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.add(DISENCHANTER);
         });
     }

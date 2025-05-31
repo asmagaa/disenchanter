@@ -1,5 +1,6 @@
 package name.modid;
 
+import name.modid.block.ModBlocks;
 import name.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class Disenchanter implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

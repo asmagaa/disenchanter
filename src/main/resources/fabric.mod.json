@@ -3,15 +3,15 @@
 	"id": "disenchanter",
 	"version": "${version}",
 	"name": "Disenchanter",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "WIP",
 	"authors": [
-		"Me!"
+		"Gerald - asmagaa"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/asmagaa",
+		"sources": "https://github.com/asmagaa/disenchanter"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/disenchanter/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"name.modid.DisenchanterDataGenerator"
+		],
+		"client": [
+			"name.modid.DisenchanterClient"
 		]
 	},
 	"mixins": [
